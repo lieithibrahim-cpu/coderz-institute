@@ -16,5 +16,50 @@
             <li><a href="enquiry.html">الاستفسار</a></li>
         </ul>
     </nav>
+    <main>
+        <section>
+            <article>
+                <form>
+                    <fieldset>
+                        <legend>أسئلة عن دورة</legend>
+                        <label for="full-name">الاسم الكامل:</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="مثلا: &quot;أحمد محمد&quot;" autocomplete="name">
+                        <br>
+                        <br>
+                        <label for="email">البريد الإلكتروني:</label>
+                        <input type="email" id="email" name="email" placeholder="ahmad@example.com" autocomplete="email">
+                        <br>
+                        <br>
+                        <label for="mobile">رقم الهاتف:</label>
+                        <input type="tel" id="mobile" name="tel-num" autocomplete="tel">
+                        <br>
+                        <br>
+                        <label for="course">الدورة:</label>
+                        <select id="course" name="course">
+                            <option value="" selected disabled>اختر كورسا</option>
+                            <option value="content">HTML Content</option>
+                            <option value="forms">HTML Forms</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="num-seats">عدد المقاعد:</label>
+                        <input type="number" id="num-seats" name="num-seats" min="1" value="1">
+                        <br>
+                        <br>
+                        <label for="date">التاريخ المفضل:</label>
+                        <input type="date" id="date" name="date">
+                        <br>
+                        <br>
+                        <label for="enquiry">نص الاستفسار:</label>
+                        <br>
+                        <textarea id="enquiry" name="enquiry-text" rows="4" cols="50"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="إرسال">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
